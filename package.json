@@ -1,0 +1,23 @@
+{
+  "name": "charu-birthday-garden",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "packageManager": "pnpm@10.15.0",
+  "scripts": {
+    "dev": "node scripts/generate-assets.mjs && vite --host 0.0.0.0",
+    "build": "node scripts/generate-assets.mjs && vite build",
+    "preview": "vite preview --host 0.0.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/vite": "latest",
+    "canvas-confetti": "latest",
+    "framer-motion": "latest",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "latest",
+    "vite": "latest",
+    "@vitejs/plugin-react": "latest"
+  }
+}
